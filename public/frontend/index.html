@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Hazze Template" />
+    <meta name="keywords" content="Hazze, unica, creative, html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Hazze | Template</title>
+
+    <!-- Google Font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Libre+Franklin:400,500,600,700,800,900&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" integrity="sha512-JobWAqYk5CSjWuVV3mxgS+MmccJqkrBaDhk8SKS1BW+71dJ9gzascwzW85UwGhxiSyR7Pxhu50k+Nl3+o5I49A==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/themify-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+    <link rel="stylesheet" href="css/lightbox.css">
+  </head>
+
+  <style>
+    .sponsor-slider {
+      width: 100%;
+      overflow: hidden;
+      background: #f9f9f9;
+      padding: 20px 0;
+    }
+
+    .sponsor-track {
+      display: flex;
+      gap: 30px;
+      animation: scroll 15s linear infinite; /* Adjust speed and smoothness */
+    }
+
+    .sponsor-track img {
+      max-height: 80px; /* Set height for images */
+      object-fit: contain;
+    }
+
+    @keyframes scroll {
+      0% {
+        transform: translateX(0%);
+      }
+      100% {
+        transform: translateX(
+          -50%
+        ); /* Moves by half the width of the duplicated track */
+      }
+    }
+  </style>
+
+  <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 col-md-2">
+            <!-- <img src="img/logo2.png" alt="">   -->
+            <div id="logo-div">
+              <span class="ailff-logo1">a</span>
+              <span class="ailff-logo2">i</span>
+              <span class="ailff-logo3">l</span>
+              <span class="ailff-logo4">f</span>
+              <span class="ailff-logo5">f</span>
+            </div>
+            <!-- <div class="logo">
+                        <a href="#">
+                            <img src="img/logo2.png" alt="">  
+                            <span class="ailff-logo1">a</span>
+                            <span class="ailff-logo2">i</span>
+                            <span class="ailff-logo3">l</span>
+                            <span class="ailff-logo4">f</span>
+                            <span class="ailff-logo5">f</span>
+                        </a>
+                    </div> -->
+          </div>
+          <div class="col-lg-10 col-md-10">
+            <div class="main-menu mobile-menu">
+              <ul>
+                <li class="active"><a href="./index.html">Home</a></li>
+                <li><a href="./about-us.html">About Us</a></li>
+                <li><a href="./gallery.html">Gallery</a></li>
+                <li><a href="./blog.html">Schedule</a></li>
+                <li><a href="./blog.html">Film Submissions</a></li>
+                <li><a href="./blog.html">Sponsors</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+                <li><a href="./blog.html">Blog</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero-section set-bg" data-setbg="img/hero-bg.jpg">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-5 linear-gra">
+            <div class="hs-text">
+              <span>ailff</span>
+              <h2>African Indigenous Language Film Festival</h2>
+              <h5 class="text-white mb-5">
+                - Celebrating Culture Through Film
+              </h5>
+              <!-- <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p> -->
+              <a href="#" class="primary-btn">Explore the Festival</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Us Section Begin -->
+    <section class="about-us-section spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <div class="as-pic">
+              <img src="img/aboutus.png" alt="" />
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="as-text" style="text-align: justify">
+              <div class="section-title">
+                <span>About us</span>
+                <h2>About Story</h2>
+              </div>
+              <p class="f-para text-dark">
+                Welcome to the African Indigenous Language Film Festival, a
+                dynamic platform celebrating Africa’s rich storytelling
+                heritage. Founded in 2023, our festival showcases films that
+                honor, preserve, and promote indigenous languages while
+                addressing vital social and global issues.
+              </p>
+              <p class="s-para text-dark">
+                The African Indigenous Language Film Festival is dedicated to
+                promoting and preserving the rich tapestry of African cultures
+                through cinema. Join us to celebrate, learn, and engage with
+                evocative storytelling from across the continent.”
+              </p>
+              <a href="#" class="primary-btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us Section End -->
+
+    <!-- Services Section Begin -->
+    <section class="services-section spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="video-container">
+              <video controls poster="img/dancing.jpg">
+                <source src="video/dancing.mp4" type="video/mp4" />
+              </video>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services Section End -->
+
+    <!-- Portfolio Section Begin -->
+    <section class="spad" style="background-color: #fcfcfc">
+      <div class="container">
+        <div class="sec-title">
+          <span>AILFF GALLERY</span>
+          <h2 class="text-dark">Celebrating Culture Through Film</h2>
+        </div>
+        <div class="row">
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery1.png" data-lightbox="photos" data-title="Gallery Image 1">
+              <img src="img/gallery/gallery1.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery2.png" data-lightbox="photos" data-title="Gallery Image 2">
+              <img src="img/gallery/gallery2.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery3.png" data-lightbox="photos" data-title="Gallery Image 3">
+              <img src="img/gallery/gallery3.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery4.png" data-lightbox="photos" data-title="Gallery Image 4">
+              <img src="img/gallery/gallery4.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery5.png" data-lightbox="photos" data-title="Gallery Image 5">
+              <img src="img/gallery/gallery5.png" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div class="col-md-4 gallery-item mb-5">
+            <a href="img/gallery/gallery6.jpg" data-lightbox="photos" data-title="Gallery Image 6">
+              <img src="img/gallery/gallery6.jpg" alt="" class="img-fluid" />
+            </a>
+          </div>
+          <div  class=" mx-auto">
+            <a href="gallery.html" class="primary-btn ">View All Gallery</a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section End -->
+
+    <!-- Testimonial Section Begin -->
+    <section class="testimonial-section spad mt-5">
+      <div class="container">
+        <h2 class="text-center text-white pt-4">We Seek Your Support</h2>
+        <div class="row">
+          <div class="col-lg-6 mt-5">
+            <img src="img/testimonial/fulani.jpg" alt="" class="img-fluid" />
+          </div>
+          <div class="col-lg-6 mt-5" style="text-align: justify">
+            <p class="text-white">
+              Your support is crucial to the African Indigenous Language Film
+              Festival's success. By donating, you help us showcase films that
+              promote inclusivity while highlighting the challenges faced by
+              individuals with Down syndrome, autism, and other conditions
+              during our 2025 edition.
+            </p>
+            <p class="text-white">
+              This year, we will focus on advocating for the acceptance and
+              inclusion of individuals living with these conditions in Africa.
+              Together, we can raise awareness of their unique experiences and
+              amplify their important narratives. Join us in fostering a more
+              compassionate and understanding world for all.
+            </p>
+            <a href="#" class="primary-btn mt-4">Donate Now </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonial Section End -->
+
+    <!-- Call To Action Section Begin -->
+    <div class="container-fluid trend-back">
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <h3 class="text-warning text-center pt-3 mb-3">
+            We Seek Your Support
+          </h3>
+          <p class="text-white text-center">
+            Your support is crucial to the African Indigenous Language Film
+            Festival's success. By donating, you help us showcase films that
+            promote inclusivity while highlighting the challenges faced by
+            individuals with Down syndrome, autism, and other conditions during
+            our 2025 edition.
+          </p>
+          <div style="text-align: center">
+            <a href="#" class="primary-btn mt-4">Donate Now </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Call To Action Section End -->
+
+    <!-- Member Section Begin -->
+    <section class="spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <span>Our Team</span>
+              <h2 class="text-dark">Organizing Team</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="member-item set-bg" data-setbg="img/member/mem1.png">
+              <div class="mi-text">
+                <div class="mt-title">
+                  <h4>Osezua Stephen-Imobhio</h4>
+                  <span>Festival Director </span>
+                </div>
+                <!-- <div class="mt-social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member-item set-bg" data-setbg="img/member/mem2.png">
+              <div class="mi-text">
+                <p></p>
+                <div class="mt-title">
+                  <h4>Pat Oghre Imobhio</h4>
+                  <span>Jury</span>
+                </div>
+                <!-- <div class="mt-social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member-item set-bg" data-setbg="img/member/mem3.png">
+              <div class="mi-text">
+                <p></p>
+                <div class="mt-title">
+                  <h4>Ojie Asuelime</h4>
+                  <span>Technical</span>
+                </div>
+                <!-- <div class="mt-social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="member-item set-bg" data-setbg="img/member/mem4.png">
+              <div class="mi-text">
+                <p></p>
+                <div class="mt-title">
+                  <h4>Omoye</h4>
+                  <span>Marketing </span>
+                </div>
+                <!-- <div class="mt-social">
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </div> -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Member Section End -->
+
+    <!-- Sponsors Section Begin -->
+    <div class="container">
+      <div class="row">
+        <div class="sponsor-slider">
+          <div class="sponsor-track">
+            <img src="img/sponsor/sponsor1.jpg" alt="Sponsor 1" />
+            <img src="img/sponsor/sponsor2.jpg" alt="Sponsor 2" />
+            <img src="img/sponsor/sponsor3.jpg" alt="Sponsor 3" />
+            <img src="img/sponsor/sponsor4.jpg" alt="Sponsor 4" />
+            <img src="img/sponsor/sponsor5.jpg" alt="Sponsor 1" />
+            <!-- Repeat images to create an infinite loop -->
+            <img src="img/sponsor/sponsor6.png" alt="Sponsor 2" />
+            <img src="img/sponsor/sponsor7.jpg" alt="Sponsor 2" />
+            <img src="img/sponsor/sponsor8.jpg" alt="Sponsor 2" />
+            <img src="img/sponsor/sponsor9.png" alt="Sponsor 2" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---Sponsors Section Ends-->
+
+    <!-- Blog Section Begin -->
+    <div class="blog-section latest-blog spad">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="section-title">
+              <span>Latest Blog</span>
+              <h2>From Our Blog</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="blog-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div
+                    class="bi-pic set-bg"
+                    data-setbg="img/blog/blog1.png"
+                  ></div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bi-text">
+                    <ul>
+                      <li><i class="fa fa-calendar-o"></i> August 9, 2019</li>
+                      <li><i class="fa fa-commenting-o"></i> 0</li>
+                    </ul>
+                    <h4>
+                      <a href="#"
+                        >Watch Out For The Deadly Proposal Movie 2025</a
+                      >
+                    </h4>
+                    <p>Never ever think of giving up. Winners never quit and</p>
+                    <div class="bt-author">
+                      <div class="ba-pic">
+                        <img src="img/blog/author1.jpeg" alt="" />
+                      </div>
+                      <div class="ba-text">
+                        <h5>Osezua Stephen-Imobhio</h5>
+                        <span>Author</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="blog-item">
+              <div class="row">
+                <div class="col-lg-6">
+                  <div
+                    class="bi-pic set-bg"
+                    data-setbg="img/blog/blog2.png"
+                  ></div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="bi-text">
+                    <ul>
+                      <li><i class="fa fa-calendar-o"></i> August 9, 2019</li>
+                      <li><i class="fa fa-commenting-o"></i> 0</li>
+                    </ul>
+                    <h4>
+                      <a href="#"
+                        >Everything Coming to Netflix Nigeria in May 2025</a
+                      >
+                    </h4>
+                    <p>Never ever think of giving up. Winners never quit and</p>
+                    <div class="bt-author">
+                      <div class="ba-pic">
+                        <img src="img/blog/author1.jpeg" alt="" />
+                      </div>
+                      <div class="ba-text">
+                        <h5>Osezua Stephen-Imobhio</h5>
+                        <span>Author</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Blog Section End -->
+
+    <!-- Footer Section Begin -->
+    <section class="footer-section">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-option">
+              <div class="fo-logo">
+                <a href="#">
+                  <img src="img/logo2.png" alt="" />
+                </a>
+              </div>
+              <ul>
+                <li>Address: 60, Mowe-Ibafo, Ogun State</li>
+                <li>Phone: +234 802 314 1942</li>
+                <li>Email: info@ailff.com</li>
+              </ul>
+              <div class="fo-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+                <a href="#"><i class="fa fa-whatsapp"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-widget fw-links">
+              <h5>Useful Links</h5>
+              <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Model</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Serivius</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h5>Join The Newsletter</h5>
+              <p>
+                Get E-mail updates about our latest shop and special offers.
+              </p>
+              <form action="#" class="news-form">
+                <input type="text" placeholder="Enter your mail" />
+                <button type="submit">Subscribe</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="footer-widget">
+              <h5>Instagram</h5>
+              <div class="insta-pic">
+                <img src="img/instagram/instagram1.png" alt="" />
+                <img src="img/instagram/instagram2.png" alt="" />
+                <img src="img/instagram/instagram3.png" alt="" />
+                <img src="img/instagram/instagram4.png" alt="" />
+                <img src="img/instagram/instagram5.png" alt="" />
+                <img src="img/instagram/instagram6.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright-text">
+          <p>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;
+            <script>
+              document.write(new Date().getFullYear());
+            </script>
+            African Indigenous Language Film Festival. All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/lightbox-plus-jquery.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        const carousel = document.getElementById("sponsorCarousel");
+        const intervalTime = 3000; // Slide change time in ms
+
+        let currentIndex = 0;
+        const items = carousel.querySelectorAll(".carousel-item");
+        const totalItems = items.length;
+
+        setInterval(() => {
+          items[currentIndex].classList.remove("active");
+          currentIndex = (currentIndex + 1) % totalItems;
+          items[currentIndex].classList.add("active");
+        }, intervalTime);
+      });
+    </script>
+  </body>
+</html>
